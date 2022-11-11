@@ -34,7 +34,7 @@
     - **Low Latency**: Persistent connection between the server and client greatly reduces the data size of each message by only sending all subsequent messages including only the relevant information.
     - **Security**: WSS (Websockets over SSL/TLS) is encrypted, thus it protects user against man-in-the-middle attack.
 
-    | --------      | WebSocket      | HTTP                       |
+    |               | WebSocket      | HTTP                       |
     | --------      | ---------      | -----------                |
     | Duplex        | Full Duplex    | Half Duplex                |
     | Msg Patten    | Bi-directional | Request-Response           |
