@@ -1,0 +1,19 @@
+@startuml
+
+package "Web Socket" {
+    class WebSocketServerEndpoint {
+        - onOpen() : establish connection after handshake process
+        - onMessage() : define how to cater client request
+        - onClose() : handle the termination of the WebSocket Connection
+        - onError() : define how to handle errors
+    }
+    
+    class WebSocketClientEndpoint {
+        - onOpen() : establish connection after handshake process
+        - onMessage() : maintain communication between client and server
+        - onClose() : handle the termination of the WebSocket Connection
+        - onError() : define how to handle errors
+    }
+}
+
+@enduml
